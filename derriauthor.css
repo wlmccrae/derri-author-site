@@ -96,66 +96,40 @@ a:visited {
   font-size: 10px;
 }
 
-.intro-text p{
+.intro-text p {
   padding: 0;
   margin: 0;
 }
 
 .main-content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 10px;
   gap: 20px;
 }
 
 .bio-header {
   font-family: "Bad Script", cursive;
-  font-size: 15px;
-  font-weight: 100;
-  color: #272262;
+  font-size: 11px;
+  font-weight: 300;
+  color: #000000;
 }
 
 .main-text {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  max-width: 55%;
-}
-
-.main-sidebar {
-  display: flex;
-  flex-direction: column;
-  max-width: 40%;
-  gap: 20px;
-}
-
-.representation {
-  border: 1px solid grey;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 5px;
-  padding: 5px 0;
 }
 
-.representation-header {
-  color: #272262;
-  font-size: 11px;
-}
-
-.representation-text {
-  font-family: "Bad Script", cursive;
-  font-size: 9px;
-  font-weight: 100;
-  align-content: center;
+.main-text p {
+  padding: 0;
+  margin: 0;
 }
 
 .social-icons {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: left;
   justify-items: center;
   gap: 10px;
 }
