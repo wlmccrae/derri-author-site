@@ -1,2 +1,3 @@
-# derri-author-site
-Author website for Derri-Ann Taylor
+# Derri-Ann Taylor
+
+Author website for Derri-Ann Taylor, an independent author and poet.
