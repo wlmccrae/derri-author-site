@@ -34,6 +34,10 @@ a:visited {
   gap: 175px;
 }
 
+.derri-portrait {
+  max-width: 100px;
+}
+
 .menu {
   display: flex;
   flex-direction: column;
@@ -161,43 +165,6 @@ a:visited {
 .icons {
   width: 20px;
   height: auto;
-}
-
-.link-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  padding: 20px;
-  font-family: "Bad Script", cursive;
-}
-
-.link-intro {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  color: #b588ad;
-  font-weight: 200;
-  font-size: 12px;
-  padding: 0 0 20px 0;
-}
-
-.links-book-img {
-  width: 100px;
-}
-
-.link-item {
-  background-color: #b588ad;
-  padding: 5px 10px;
-  font-size: 8px;
-  border-radius: 10px;
-}
-
-.link-item a {
-  color: #ffffff;
 }
 
 .books {
@@ -440,20 +407,6 @@ a:visited {
 
   .book-extras {
     padding: 0 50px;
-  }
-
-  .link-box {
-    padding: 20px;
-  }
-
-  .link-intro {
-    gap: 50px;
-    padding: 10px 30px;
-    font-size: 20px;
-  }
-
-  .link-item {
-    font-size: 15px;
   }
 
   .contact-page {

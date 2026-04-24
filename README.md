@@ -12,7 +12,7 @@ Live site: TBD
 
 ## Tech Stack
 * HTML
-* Tailwind CSS
+* CSS
 * Google Fonts
 
 ## Accessibility
