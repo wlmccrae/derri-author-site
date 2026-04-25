@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- Base gradient: top orange → rose by 35% → stays rose through bottom -->
+    <linearGradient id="baseGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#dca07c"/>
+      <stop offset="35%"  stop-color="#ce8a90"/>
+      <stop offset="100%" stop-color="#c47888"/>
+    </linearGradient>
+
+    <!-- Warm peach bloom at top-left -->
+    <radialGradient id="glowOrange" cx="180" cy="100" r="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#e8b898" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#e8b898" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Muted rose bloom at bottom-right -->
+    <radialGradient id="glowRose" cx="1200" cy="800" r="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#b86878" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#b86878" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Gentle blur for wave elements -->
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+  </defs>
+
+  <!-- Base gradient fill -->
+  <rect width="1400" height="900" fill="url(#baseGrad)"/>
+
+  <!-- Depth overlays -->
+  <rect width="1400" height="900" fill="url(#glowOrange)"/>
+  <rect width="1400" height="900" fill="url(#glowRose)"/>
+
+  <!-- Upper warm band -->
+  <path d="M0,0 C280,80 600,20 900,90 C1100,140 1250,50 1400,75 L1400,0 Z"
+        fill="#e8c0a0" opacity="0.20" filter="url(#soft)"/>
+
+  <!-- Mid sweeping wave -->
+  <path d="M0,300 C200,250 450,340 700,270 C900,215 1100,310 1400,265
+           L1400,420 C1100,465 900,375 700,430 C450,495 200,410 0,455 Z"
+        fill="#cc8890" opacity="0.18" filter="url(#soft)"/>
+
+  <!-- Lower rose band -->
+  <path d="M0,640 C260,595 540,670 800,615 C1020,565 1210,630 1400,600
+           L1400,900 L0,900 Z"
+        fill="#be7080" opacity="0.22" filter="url(#soft)"/>
+
+  <!-- Top-right warm accent -->
+  <path d="M950,0 C1080,70 1230,30 1400,80 L1400,240 C1230,190 1080,230 950,150 Z"
+        fill="#f0c8a8" opacity="0.13" filter="url(#soft)"/>
+</svg>
