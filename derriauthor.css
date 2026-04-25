@@ -38,6 +38,13 @@ body {
   top: 0;
 }
 
+p {
+  padding: 0;
+  margin: 0;
+  color: #dfc7c6;
+  font-size: 9px;
+}
+
 .menu-container {
   background-color: #cb6734;
   display: flex;
@@ -106,14 +113,12 @@ body {
 
 .intro-text {
   font-family: "Bad Script", cursive;
-  color: #000000;
   padding-left: 20px;
   font-size: 10px;
 }
 
 .intro-text p {
-  padding: 0;
-  margin: 0;
+  color: #000000;
 }
 
 .main-content {
@@ -135,13 +140,6 @@ body {
   flex-direction: column;
   gap: 5px;
   max-width: 55%;
-}
-
-.main-text p {
-  padding: 0;
-  margin: 0;
-  color: #dfc7c6;
-  font-size: 9px;
 }
 
 .main-sidebar {
@@ -178,14 +176,6 @@ body {
   gap: 20px;
 }
 
-.book-info {
-  display: flex;
-  flex-direction: column;
-  font-family: "Bad Script", cursive;
-  color: grey;
-  gap: 5px;
-}
-
 .book-intro-container {
   background-color: rgb(242, 190, 94);
   display: flex;
@@ -207,13 +197,13 @@ body {
   flex-direction: column;
   text-align: center;
   gap: 5px;
+  color: #4a1616;
 }
 
 .quote-text {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  color: #ffffff;
 }
 
 .quote-img {
@@ -225,20 +215,22 @@ body {
 
 .order-book {
   font-family: "Libre Franklin", sans-serif;
-  border: 1px solid #000000;
+  border: 1px solid #dfc7c6;
   margin: auto;
   padding: 5px;
-  background: rgb(222, 141, 126);
-  font-size: 10px;
+  background: #7f1814;
+  font-size: 9px;
   line-height: normal;
   width: fit-content;
 }
 
 .order-book a {
-  color: rgb(60, 59, 59);
+  color: #dfc7c6;
+  text-decoration: none;
 }
 
 .book-title {
+  font-family: "Bad Script", cursive;
   font-size: 14px;
   font-weight: 100;
   padding: 5px 0 0 0;
@@ -249,6 +241,7 @@ body {
   flex-direction: column;
   padding: 5px 15px;
   gap: 8px;
+  color: #dfc7c6;
 }
 
 .book-text-emphasis {
