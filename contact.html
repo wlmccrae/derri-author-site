@@ -26,7 +26,7 @@
         <a href="contact.html">CONTACT</a>
       </nav>
     </header>
-    <div class="contact-page">
+    <main class="contact-page" id="main-content">
       <div class="contact-text">
         <h2 class="bio-header">Contact</h2>
         <p>
@@ -45,16 +45,16 @@
           <span class="required-field" aria-hidden="true">*</span>
           <span class="sr-only">(required)</span>
         </label>
-        <input class="contact-field" type="text" id="name" name="name" required />
+        <input class="contact-field" type="text" id="name" name="name" autocomplete="name" required />
         <label class="form-label" for="email">
           Email:
-          <span class="required-field">*</span>
+          <span class="required-field" aria-hidden="true">*</span>
           <span class="sr-only">(required)</span>
         </label>
-        <input class="contact-field" type="email" id="email" name="email" required />
+        <input class="contact-field" type="email" id="email" name="email" autocomplete="email" required />
         <label class="form-label" for="message">
           Your Comment or Message:
-          <span class="required-field">*</span>
+          <span class="required-field" aria-hidden="true">*</span>
           <span class="sr-only">(required)</span>
         </label>
         <textarea class="message-field" id="message" name="message" maxlength="1600" placeholder="Maximum 250 words (around 1600 characters)" required></textarea>
@@ -63,9 +63,9 @@
           Send Message
         </button>
       </form>
-    </div>
-    <div class="footer-content">
+    </main>
+    <footer class="footer-content">
       <div class="footer-text">Copyright 2026, Derri-Ann Taylor-Thomas. Designed by <a href="https://wandamccrae.com/freelance" target="_blank" rel="noopener noreferrer">Wanda McCrae</a>.</div>
-    </div>
+    </footer>
   </body>
 </html>
