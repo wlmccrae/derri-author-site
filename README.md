@@ -22,3 +22,7 @@ Live site: TBD
 * Descriptive alt text and ARIA labels on all links and images
 * Visible focus styles for keyboard navigation
 * Proper heading hierarchy (h1 → h2)
+
+## Changelog
+
+* 2026-05-25: Fixed link in footer on Contact and Thanks pages.
